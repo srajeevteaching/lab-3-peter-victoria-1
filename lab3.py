@@ -17,19 +17,19 @@ if (weight>0 and weight<=20):
         #find charge if weight is greater than 0kg and not heavier than 2kg
         if (weight>0 and weight<=2):
             charge = distance/500*1.10
-            print(math.ceil(charge))
+            print("Your charge is: $", math.ceil(charge), sep="")
             #find charge if weight is greater than 2kg and not heavier than 6kg
         if (weight>2 and weight<=6):
             charge = distance/500*2.20
-            print(math.ceil(charge))
+            print("Your charge is: $", math.ceil(charge), sep="")
             #find charge if weight is greater than 6kg and not heavier than 10kg
         if (weight>6 and weight<=10):
             charge = distance/500*3.70
-            print(math.ceil(charge))
+            print("Your charge is: $", math.ceil(charge), sep="")
             #find charge if weight is greater than 10kg
         if (weight>10):
             charge = distance/500*4.80
-            print(math.ceil(charge))
+            print("Your charge is: $", math.ceil(charge), sep="")
     #print statment if the distance is invalid
     else:
         print ("invalid distance, please run again")
